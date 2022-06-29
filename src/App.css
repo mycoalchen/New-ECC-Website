@@ -1,5 +1,21 @@
-.App {
-  text-align: center;
+:root {
+  --pea-red:  #9a1d2e;
+  --dark-red:  #670000;
+  --dark-gray:  rgb(20, 20, 20);
+}
+
+body { 
+  background-color: var(--pea-red);
+  margin: 0; 
+  padding: 0; 
+}
+
+.main-background {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -11,17 +27,6 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
