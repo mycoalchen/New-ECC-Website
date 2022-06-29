@@ -3,6 +3,23 @@
   --dark-red:  #670000;
   --dark-gray:  rgb(20, 20, 20);
 }
+@font-face {
+  font-family: GraphikWeb;
+  src: url("fonts/GraphikRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: GraphikWeb;
+  font-weight: 500;
+  src: url("fonts/GraphikMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: GraphikWeb;
+  font-weight: 1000;
+  src: url("fonts/GraphikBold.otf") format("opentype");
+}
+* {
+  font-family: GraphikWeb;
+}
 
 body { 
   background-color: white;
@@ -15,7 +32,6 @@ body {
   min-width: 100vw;
   margin: 0;
   font-size: calc(10px + 2vmin);
-  color: black;
 }
 
 .App-logo {
@@ -40,32 +56,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
-
-.topnav {
-  background-color: var(--pea-red);
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  height: 47px;
-  box-shadow: 0 0 5px var(--dark-gray);
-}
-.topnav-link {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: 500;
-}
-.topnav-link:hover {
-  background-color: white;
-  color: black;
-}
-.topnav-link active {
-  background-color: var(--dark-gray);
-  color: white;
 }
