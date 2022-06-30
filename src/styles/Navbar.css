@@ -1,10 +1,10 @@
-@import "App.css";
+@import "../App.css";
 
 .topnav {
     background-color: var(--pea-red);
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -13,7 +13,6 @@
     box-shadow: 0 0 5px var(--dark-gray);
   }
   .topnav-link {
-    float: right;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -27,6 +26,10 @@
     color: black;
   }
   .topnav-link:active {
+    background-color: var(--dark-gray);
+    color: white;
+  }
+  .active {
     background-color: var(--dark-gray);
     color: white;
   }
