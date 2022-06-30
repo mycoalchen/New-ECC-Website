@@ -17,7 +17,7 @@
     text-align: center;
     text-decoration: none;
     padding: 3vh;
-    font-size: max(2vh, 1.5vw);
+    font-size: max(min(2vh, 1.5vw), 16px);
     height: 100%;
     font-weight: 500;
   }

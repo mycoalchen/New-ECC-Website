@@ -1,10 +1,12 @@
 import '../App.css';
 import '../styles/Home.css';
 import peaImg from '../media/PEA.jpg'
+import Navbar from '../Navbar';
 
 function Home() {
   return (
-    <>
+    <div className="main-background">
+      <Navbar/>
       <div className="container">
         <img className="home-bg-img" src={peaImg} alt="PEA"/>
         <div className="home-club-name">Exeter Computing Club</div>
@@ -29,7 +31,7 @@ function Home() {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

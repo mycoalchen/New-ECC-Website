@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './index.css';
-import App from './App';
 import Home from './pages/Home';
 import InterestGroups from './pages/InterestGroups';
 import FindADev from './pages/FindADev';
@@ -12,12 +10,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} >
-        <Route path="home" element={<Home />} />
-        <Route path="interestgroups" element={<InterestGroups />} />
-        <Route path="findadev" element={<FindADev />} />
-        <Route path="news" element={<News />} />
-      </Route>
+      <Route path="/home" element={<Home />} />
+      <Route path="/interestgroups" element={<InterestGroups />} />
+      <Route path="/findadev" element={<FindADev />} />
+      <Route path="/news" element={<News />} />
     </Routes>
   </BrowserRouter>
 );
