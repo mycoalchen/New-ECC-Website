@@ -1,0 +1,26 @@
+@import url('../App.css');
+
+.interest-groups-description {
+    display: table;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 80vw;
+    text-align: center;
+}
+
+.interest-group-card {
+    display: block;
+    padding: 0 15px 0 15px;
+    border-radius: 15px;
+    border: 5px solid var(--dark-gray);
+    background-color: var(--pea-red);
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: min(1000px, 80vw);
+}
+.interest-group-link {
+    color: white;
+    font-style: italic;
+}
