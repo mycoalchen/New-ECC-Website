@@ -16,5 +16,5 @@ root.render(
       <Route path="/findadev" element={<FindADev />} />
       <Route path="/news" element={<News />} />
     </Routes>
-  </BrowserRouter>
+  </BrowserRouter>,
 );

@@ -1,15 +1,15 @@
+import React from 'react';
+
 import '../App.css';
 import Navbar from '../Navbar';
 
-function News() {
+function FindADev() {
   return (
     <div className="main-background">
-      <Navbar/>
-      <div>
-        News
-      </div>
+      <Navbar />
+      <div>Find a dev</div>
     </div>
   );
 }
 
-export default News;
+export default FindADev;

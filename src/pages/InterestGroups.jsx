@@ -1,17 +1,22 @@
+import React from 'react';
+
 import '../App.css';
 import '../styles/InterestGroups.css';
 import Navbar from '../Navbar';
 
 function InterestGroups() {
   return (
-    <div className='main-background'>
-      <Navbar/>
+    <div className="main-background">
+      <Navbar />
       <div className="interest-groups-description">
         The ECC consists of several different interest groups, as described below.
       </div>
       <div className="interest-group-card">
         <h1>Competition Group</h1>
-        <p>The competition group meets weekly to practice for the USACO programming olympiad.</p>
+        <p>
+          The competition group meets weekly to practice for the USACO programming
+          olympiad.
+        </p>
         <p>Group leaders: Joey Dong, Anish Mudide</p>
       </div>
       <div className="interest-group-card">
@@ -21,8 +26,19 @@ function InterestGroups() {
       </div>
       <div className="interest-group-card">
         <h1>Project Group</h1>
-        <p>The project group builds websites, apps, and other tools to help the PEA community. Its current project is a website displaying an interactive map of PEA's courses.</p>
-        <a href="https://github.com/ECC-Project-Group/ExeterCourseMap" target="_blank" className="interest-group-link">Open the ExeterCourseMap repo here!</a>
+        <p>
+          The project group builds websites, apps, and other tools to help the PEA
+          community. Its current project is a website displaying an interactive map of
+          PEA&apos;s courses.
+        </p>
+        <a
+          href="https://github.com/ECC-Project-Group/ExeterCourseMap"
+          target="_blank"
+          className="interest-group-link"
+          rel="noreferrer"
+        >
+          Open the ExeterCourseMap repo here!
+        </a>
         <p>Group leaders: Michael Chen, Riya Tyagi, Tanish Tyagi</p>
       </div>
       <div className="interest-group-card">
