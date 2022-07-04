@@ -1,14 +1,14 @@
 import React from 'react';
 
 import '../App.css';
-import Navbar from '../Navbar';
 
 function FindADev() {
+  React.useEffect(() => {
+    // Redirect to whichever form needed
+    window.location.replace('https://www.google.com');
+  }, []);
   return (
-    <div className="main-background">
-      <Navbar />
-      <div>Find a dev</div>
-    </div>
+    <div />
   );
 }
 
