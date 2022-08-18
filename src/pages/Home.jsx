@@ -1,9 +1,9 @@
 import React from 'react';
 
 import '../App.css';
-import '../styles/Home.css';
+import Navbar from '../Components/Navbar';
 import peaImg from '../media/PEA.jpg';
-import Navbar from '../Navbar';
+import '../styles/Home.css';
 
 function Home() {
   return (
