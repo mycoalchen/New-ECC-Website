@@ -15,14 +15,14 @@ function Home() {
       </div>
       <div className="home-about-bg">
         <div className="home-about-block">
-          <h1>About</h1>
+          <h1 className="home-about-header">About</h1>
           <p className="welcome-text">
             Welcome to the Exeter Computing Club website! I don&apos;t really know what
             to say here.
           </p>
         </div>
         <div className="home-about-block">
-          <h1>Coheads</h1>
+          <h1 className="home-about-header">Coheads</h1>
           <ul className="welcome-text">
             <li>Celine Tan</li>
             <li>Michael Chen</li>
