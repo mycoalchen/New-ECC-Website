@@ -1,8 +1,8 @@
 import React from 'react';
 
 import '../App.css';
+import Navbar from '../Components/Navbar';
 import '../styles/InterestGroups.css';
-import Navbar from '../Navbar';
 
 function InterestGroups() {
   return (

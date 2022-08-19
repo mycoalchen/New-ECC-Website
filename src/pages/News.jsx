@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../App.css';
-import Navbar from '../Navbar';
+import Navbar from '../Components/Navbar';
 import '../styles/News.css';
 
 function News() {
