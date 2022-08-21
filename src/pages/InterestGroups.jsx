@@ -41,6 +41,9 @@ function InterestGroups() {
         >
           Open the ExeterCourseMap repo here!
         </a>
+        <p>
+          Let us know if you&rsquo;re interested in joining! We&rsquo;re open to beginners too.
+        </p>
         <p>Group leaders: Michael Chen, Riya Tyagi, Tanish Tyagi</p>
       </div>
       <div className="interest-group-card">
