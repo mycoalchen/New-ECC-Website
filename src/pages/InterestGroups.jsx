@@ -1,5 +1,9 @@
 import React from 'react';
 
+import {
+  Heading,
+} from '@chakra-ui/react';
+
 import '../App.css';
 import Navbar from '../Components/Navbar';
 import Footer from '../Components/Footer';
@@ -9,10 +13,10 @@ function InterestGroups() {
   return (
     <div className="main-background">
       <Navbar />
-      <div className="interest-groups-description">
+      <Heading fontWeight="normal" fontSize="2xl" margin="auto" maxWidth="50vw" textAlign="center" paddingY="2vh">
         The ECC consists of several different interest groups, as described
         below.
-      </div>
+      </Heading>
       <div className="interest-group-card">
         <h1 className="interest-group-card-header">Competition Group</h1>
         <p>

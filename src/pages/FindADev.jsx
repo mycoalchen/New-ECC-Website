@@ -15,9 +15,8 @@ function FindADev() {
     <div className="main-background">
       <Navbar />
       <Container maxWidth="auto">
-        <Heading textAlign="center">
-          Here you can find aspiring, excellent, and motivated developers
-          (Totally legit!)
+        <Heading textAlign="center" fontSize="2xl" fontWeight="normal" paddingTop="2vh" maxWidth="50vw" margin="auto">
+          Find PEA collaborators for your project here:
         </Heading>
       </Container>
       <Center>
@@ -42,11 +41,10 @@ function FindADev() {
           />
         </SimpleGrid>
       </Center>
-
-      <Container textAlign="center">
-        Also a dev?
+      <Container textAlign="center" fontSize="2xl" maxWidth="50vw" paddingTop="3vh">
+        Are you a PEA developer open to working with others?
         {' '}
-        <a href="https://forms.gle/xyvu47J64Vz7HNnh9" className="gform-link">Let us know and we&lsquo;ll add you to this page!</a>
+        <a href="https://forms.gle/xyvu47J64Vz7HNnh9" target="blank" className="gform-link">Let us know and we&lsquo;ll add you to this page!</a>
       </Container>
       <Footer />
     </div>
