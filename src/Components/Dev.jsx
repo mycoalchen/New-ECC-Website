@@ -93,7 +93,7 @@ export default function Dev({
               bg: 'blue.500',
             }}
             onClick={() => {
-              alert(email);
+              window.open(`mailto:${email}`);
             }}
           >
             Email
