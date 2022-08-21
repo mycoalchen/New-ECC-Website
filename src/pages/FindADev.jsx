@@ -5,12 +5,13 @@ import {
 } from '@chakra-ui/react';
 
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 import Dev from '../Components/Dev';
 import '../App.css';
 
 function FindADev() {
   return (
-    <>
+    <Container maxW="100%" minH="100%" padding="0">
       <Navbar />
 
       <Container maxWidth="auto">
@@ -42,13 +43,8 @@ function FindADev() {
           />
         </SimpleGrid>
       </Center>
-
-      <Container textAlign="center">
-        Also a dev?
-        {' '}
-        <a href="https://forms.gle/INSERTLINKHERE">Let us know and we&lsquo;ll add you to this page!</a>
-      </Container>
-    </>
+      <Footer />
+    </Container>
   );
 }
 
