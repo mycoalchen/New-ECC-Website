@@ -17,6 +17,12 @@
   font-weight: 1000;
   src: url("fonts/GraphikBold.otf") format("opentype");
 }
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
 * {
   font-family: GraphikWeb;
 }
@@ -25,6 +31,7 @@ body {
   margin: 0; 
   padding: 0;
   height: 100%;
+  overflow: auto;
   scrollbar-width: none;
 }
 body::-webkit-scrollbar {

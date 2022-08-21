@@ -14,7 +14,7 @@ function InterestGroups() {
         below.
       </div>
       <div className="interest-group-card">
-        <h1>Competition Group</h1>
+        <h1 className="interest-group-card-header">Competition Group</h1>
         <p>
           The competition group meets weekly to practice for the USACO
           programming olympiad.
@@ -22,14 +22,12 @@ function InterestGroups() {
         <p>Group leaders: Joey Dong, Anish Mudide</p>
       </div>
       <div className="interest-group-card">
-        <h1>ML Group</h1>
-        <p>
-          The ML group meets weekly to discuss and learn about machine learning.
-        </p>
+        <h1 className="interest-group-card-header">ML Group</h1>
+        <p>The ML group meets weekly to discuss and learn about machine learning.</p>
         <p>Group leaders: Anish Mudide, Sophia Zhang</p>
       </div>
       <div className="interest-group-card">
-        <h1>Project Group</h1>
+        <h1 className="interest-group-card-header">Project Group</h1>
         <p>
           The project group builds websites, apps, and other tools to help the
           PEA community. Its current project is a website displaying an
@@ -46,11 +44,8 @@ function InterestGroups() {
         <p>Group leaders: Michael Chen, Riya Tyagi, Tanish Tyagi</p>
       </div>
       <div className="interest-group-card">
-        <h1>PCB Group</h1>
-        <p>
-          The PCB group meets weekly to discuss and learn about printed circuit
-          boards.
-        </p>
+        <h1 className="interest-group-card-header">PCB Group</h1>
+        <p>The PCB group meets weekly to discuss and learn about printed circuit boards.</p>
         <p>Group leaders: Byran Huang</p>
       </div>
       <Footer />
