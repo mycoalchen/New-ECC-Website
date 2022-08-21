@@ -2,6 +2,7 @@ import React from 'react';
 
 import '../App.css';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 import '../styles/News.css';
 
 function News() {
@@ -26,6 +27,7 @@ function News() {
         All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy. All work and no play makes Jack a dull boy.
       </p>
       <hr className="news-hr" />
+      <Footer />
     </div>
   );
 }
