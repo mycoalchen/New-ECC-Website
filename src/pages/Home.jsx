@@ -18,7 +18,7 @@ function Home() {
         <div className="home-about-block">
           <h1 className="home-about-header">About</h1>
           <p className="welcome-text">
-            Welcome to the Exeter Computing Club website! I don&apos;t really know what
+            Welcome to the Exeter Computing Club website! I don&apos;t know what
             to say here.
           </p>
         </div>

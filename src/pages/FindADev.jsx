@@ -23,19 +23,19 @@ function FindADev() {
         <SimpleGrid columns={3} spacing={6}>
           <Dev
             name="Eric"
-            description="Funny coding ape! I fucking love JavaScript"
+            description="Funny coding ape! I love JavaScript"
             tags={['javascript', 'web']}
             email="ericlmtn@gmail.com"
           />
           <Dev
             name="Eric"
-            description="Funny coding ape! I fucking love JavaScript"
+            description="Funny coding ape! I love JavaScript"
             tags={['javascript', 'web']}
             email="ericlmtn@gmail.com"
           />
           <Dev
             name="Eric"
-            description="Funny coding ape! I fucking love JavaScript"
+            description="Funny coding ape! I love JavaScript"
             tags={['javascript', 'web']}
             email="ericlmtn@gmail.com"
           />
