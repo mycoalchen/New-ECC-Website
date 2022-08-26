@@ -18,8 +18,7 @@ function Home() {
         <div className="home-about-block">
           <h1 className="home-about-header">About</h1>
           <p className="welcome-text">
-            Welcome to the Exeter Computing Club website! I don&apos;t know what
-            to say here.
+            Welcome to the Exeter Computing Club, PEA&rsquo;s central technology community! We welcome all PEA students, regardless of prior knowledge or experience. Whether you want weekly lessons on the USACO competition, help on CS coursework, collaborators for your personal project, or teammates for a Hackathon, ECC is the club to join!
           </p>
         </div>
         <div className="home-about-block">
