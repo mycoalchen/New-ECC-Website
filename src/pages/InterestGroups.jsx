@@ -51,9 +51,17 @@ function InterestGroups() {
         <p>Group leaders: Michael Chen, Riya Tyagi, Tanish Tyagi</p>
       </div>
       <div className="interest-group-card">
-        <h1 className="interest-group-card-header">PCB Group</h1>
-        <p>The PCB group meets weekly to discuss and learn about printed circuit boards.</p>
-        <p>Group leaders: Byran Huang</p>
+        <h1 className="interest-group-card-header">PCB and Circuitry Group</h1>
+        <p>The PCB group meets weekly to discuss and learn about circuits and making printed circuit boards (PCBs).</p>
+        <a
+          href="https://discord.gg/5PapcqEKkV"
+          target="_blank"
+          className="interest-group-link"
+          rel="noreferrer"
+        >
+          Join the Discord server here!
+        </a>
+        <p>Group leader: Byran Huang</p>
       </div>
       <Footer />
     </div>
