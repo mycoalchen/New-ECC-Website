@@ -26,6 +26,7 @@
     font-size: max(min(2vh, 1.5vw), 16px);
     height: 100%;
     font-weight: 500;
+    transition: ease-in-out 0.15s;
   }
   .topnav-link:hover {
     background-color: white;

@@ -15,7 +15,7 @@ function FindADev() {
     <div className="main-background">
       <Navbar />
       <Container maxWidth="auto">
-        <Heading textAlign="center" fontSize="2xl" fontWeight="normal" paddingTop="2vh" maxWidth="50vw" margin="auto">
+        <Heading textAlign="center" fontSize="2xl" fontWeight="bold" paddingTop="2vh" maxWidth="50vw" margin="auto">
           Find PEA collaborators for your project here:
         </Heading>
       </Container>

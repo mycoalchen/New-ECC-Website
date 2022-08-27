@@ -13,7 +13,7 @@ function InterestGroups() {
   return (
     <div className="main-background">
       <Navbar />
-      <Heading fontWeight="normal" fontSize="2xl" margin="auto" maxWidth="50vw" textAlign="center" paddingY="2vh">
+      <Heading fontWeight="bold" fontSize="2xl" margin="auto" maxWidth="70vw" textAlign="center" paddingY="2vh">
         The ECC consists of several different interest groups, as described
         below.
       </Heading>
