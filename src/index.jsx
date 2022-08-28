@@ -6,7 +6,6 @@ import FindADev from './pages/FindADev';
 import Home from './pages/Home';
 import InterestGroups from './pages/InterestGroups';
 import News from './pages/News';
-import 'animate.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

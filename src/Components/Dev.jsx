@@ -16,6 +16,7 @@ export default function Dev({
   avatarUrl,
   name,
   instagram,
+  discord,
   description,
   tags,
   email,
@@ -23,8 +24,9 @@ export default function Dev({
   return (
     <Center py={6}>
       <Box
-        maxW="320px"
+        maxW="360px"
         w="full"
+        h="500px"
         bg={useColorModeValue('white', 'gray.900')}
         boxShadow="2xl"
         rounded="lg"
@@ -38,35 +40,29 @@ export default function Dev({
           alt="Avatar Alt"
           mb={4}
           pos="relative"
-          _after={{
-            content: '""',
-            w: 4,
-            h: 4,
-            bg: 'green.300',
-            border: '2px solid white',
-            rounded: 'full',
-            pos: 'absolute',
-            bottom: 0,
-            right: 3,
-          }}
         />
         <Heading fontSize="2xl" fontFamily="body">
           {/* Firstname Lastname */}
           {name}
         </Heading>
-        <Text fontWeight={600} color="gray.500" mb={4}>
-          {/* @some_body */}
+        <Text fontWeight={600} color="gray.500" mt={2} mb={0}>
+          {/* Instagram */}
           {instagram || 'No Instagram'}
+        </Text>
+        <Text fontWeight={600} color="gray.500" mb={2}>
+          {/* Discord */}
+          {discord === undefined ? 'No Discord' : `Discord: ${discord}`}
         </Text>
         <Text
           textAlign="center"
           color={useColorModeValue('gray.700', 'gray.400')}
           px={3}
+          h="90px"
         >
           {description}
         </Text>
 
-        <Stack align="center" justify="center" direction="row" mt={6}>
+        <Stack align="center" justify="center" flexWrap="wrap" direction="row" mt={6} h="12">
           {tags.map((tag) => (
             <Badge
               px={2}
