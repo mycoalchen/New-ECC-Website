@@ -40,3 +40,12 @@
     background-color: var(--dark-gray);
     color: white;
   }
+  /* breakpoint for smaller screens */
+  @media only screen and (max-width: 712px) {
+    .topnav-link {
+      padding: 2vh 1vh;
+    }
+    .topnav {
+      min-height: auto;
+    }
+  }
