@@ -22,7 +22,7 @@ function FindADev() {
         </Heading>
       </Container>
       <Center>
-        <SimpleGrid columns={3} spacing={6}>
+        <SimpleGrid columns={[1, 1, 2, 2, 3]} spacing={6}>
           <Dev
             name="Eric"
             description="Funny coding ape! I love JavaScript"

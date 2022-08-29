@@ -32,6 +32,10 @@ export default function Dev({
         rounded="lg"
         p={6}
         textAlign="center"
+        transition="0.15s"
+        _hover={{
+          transform: 'scale(1.015)',
+        }}
       >
         <Avatar
           size="xl"
