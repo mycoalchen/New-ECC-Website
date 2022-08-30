@@ -26,7 +26,7 @@ function FindADev() {
           <Dev
             name="Eric"
             description="Funny coding ape! I love JavaScript"
-            tags={['javascript', 'web']}
+            tags={['javascript', 'webdev']}
             email="ericlmtn@gmail.com"
           />
           <Dev
@@ -38,10 +38,11 @@ function FindADev() {
             email="byran@byran.tech"
           />
           <Dev
-            name="Eric"
-            description="Funny coding ape! I love JavaScript"
-            tags={['javascript', 'web']}
-            email="ericlmtn@gmail.com"
+            name="Dongchen"
+            discord="dczdajoker#0060"
+            description=""
+            tags={['webdev']}
+            email="dzou@exeter.edu"
           />
         </SimpleGrid>
       </Center>
