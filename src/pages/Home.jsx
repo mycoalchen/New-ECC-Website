@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 
 import '../App.css';
 import Footer from '../Components/Footer';
@@ -12,7 +13,19 @@ function Home() {
       <Navbar />
       <div className="container">
         <img className="home-bg-img" src={peaImg} alt="PEA" />
-        <div className="home-club-name">Exeter Computing Club</div>
+        <div className="home-club-name">
+          <Typewriter
+            options={{
+              autoStart: true,
+              delay: 70,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString('Exeter Computing Club')
+                .start();
+            }}
+          />
+        </div>
       </div>
       <div className="home-about-bg">
         <div className="home-about-block">
