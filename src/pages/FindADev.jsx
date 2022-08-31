@@ -11,6 +11,7 @@ import Dev from '../Components/Dev';
 import '../App.css';
 
 import byran from '../media/byranLogo.jpeg';
+import knoddy from '../media/knoddy.png';
 
 function FindADev() {
   return (
@@ -43,6 +44,33 @@ function FindADev() {
             description=""
             tags={['webdev']}
             email="dzou@exeter.edu"
+          />
+          <Dev
+            name="Nathan"
+            discord="Knoddy#9995"
+            description={(
+              <h1 style={{
+                transformOrigin: 'top',
+                transform: 'scaleY(0.8) scaleX(0.9)',
+              }}
+              >
+                I am web developer. I love to code. I love to make things. I love to make things that people use. I use React and Node.js. I am a student at Exeter University. This card was made by GitHub Copilot.
+              </h1>
+            )}
+            avatarUrl={knoddy}
+            tags={['webdev', 'javascript', 'react', 'nodejs', 'exeter', 'github', 'copilot', 'student', 'student', 'student']}
+            email="cow2cow4cow@gmail.com"
+            instagram={(
+              <a
+                style={{
+                  color: 'blue',
+                  textDecoration: 'underline',
+                }}
+                href="https://instagram.com/knoddycow"
+              >
+                @knoddycow
+              </a>
+)}
           />
         </SimpleGrid>
       </Center>
