@@ -23,7 +23,7 @@ export default function Footer() {
         justify="space-between"
       >
         <VStack align="start" maxWidth="fit-content">
-          <Text paddingBottom="2vh" paddingTop="4vh" fontWeight="semibold">© The 2022 Phillips Exeter Academy Computing Club</Text>
+          <Text paddingBottom="2vh" paddingTop="4vh" fontWeight="semibold">© The 2023 Phillips Exeter Academy Computing Club</Text>
         </VStack>
         <HStack spacing="30px">
           <Link href="https://discord.gg/eAUk5Wvq" isExeternal>

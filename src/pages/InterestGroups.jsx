@@ -61,7 +61,7 @@ function InterestGroups() {
         >
           Join the Discord server here!
         </a>
-        <p>Group leader: Byran Huang</p>
+        <p>Group leaders: Byran Huang</p>
       </div>
       <Footer />
     </div>
